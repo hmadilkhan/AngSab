@@ -87,9 +87,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/assets/css/my-task.style.min.css",
+              "src/assets/assets/plugin/datatables/responsive.dataTables.min.css",
+              "src/assets/assets/plugin/datatables/dataTables.bootstrap5.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/assets/bundles/libscripts.bundle.js",
+              "src/assets/assets/page/template.js"
+            ]
           }
         }
       }
